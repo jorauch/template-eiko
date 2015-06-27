@@ -1,0 +1,49 @@
+{
+  "main-nav": [
+	{
+	  "text": "Default",
+	  "url": "link2"
+	},
+	{
+	  "text": "Tree",
+	  "url": "link1",
+	  "sub": {
+		"settings": {
+		  "type": "tree",
+		  "bottom-text": "Alle anzeigen",
+		  "bottom-url": "link1"
+		},
+		"items": [
+		  {
+			"text": "1.1 Category",
+			"url": "link1-1",
+			"sub": [
+			  {
+				"text": "1.1.1 Link",
+				"url": "link1-1-1",
+				"sub": [
+				  {
+					"text": "1.1.1.1 Link",
+					"url": "link1-1-1-1"
+				  },
+				  {
+					"text": "1.1.1.2 Link",
+					"url": "link1-1-1-2"
+				  }
+				]
+			  },
+			  {
+				"text": "1.1.2 Link",
+				"url": "link1-1-2"
+			  }
+			]
+		  },
+		  {
+			"text": "1.2 Category",
+			"url": "link1-2"
+		  }
+		]
+	  }
+	}
+  ]
+}
