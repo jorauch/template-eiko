@@ -44,6 +44,48 @@
 		  }
 		]
 	  }
+	},
+	{
+	  "text": "Gallery",
+	  "url": "link1",
+	  "sub": {
+		"settings": {
+		  "type": "gallery",
+		  "bottom-text": "Gallery druchsuchen",
+		  "bottom-url": "link1"
+		},
+		"items": [
+		  {
+			"text": "1.1 Picture",
+			"url": "link1",
+			"img": "public/img/img.jpg",
+			"img-alt": "Picture",
+			"description": "Lordom ipsum"
+		  },
+		  {
+			"text": "1.2 Picture",
+			"url": "link1-2",
+			"img": "public/img/img.jpg",
+			"img-alt": "Picture",
+			"description": "Lordom ipsum"
+		  },
+		  {
+			"text": "1.3 Picture",
+			"url": "link1-2",
+			"img": "public/img/img.jpg",
+			"img-alt": "Picture",
+			"description": "Lordom ipsum"
+		  },
+		  {
+			"text": "1.4 Picture",
+			"url": "link1-2",
+			"img": "public/img/img.jpg",
+			"img-alt": "Picture",
+			"description": "Lordom ipsum"
+		  }
+		]
+	  }
 	}
+
   ]
 }
