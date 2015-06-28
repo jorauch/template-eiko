@@ -1,7 +1,6 @@
 {
   "projectName": "eikona-template",
   "projectDescription": "bootstrap template.",
-  "publishedId": null,
   "routes": null,
   "convertHtml": {
     "relativePaths": true
@@ -17,7 +16,13 @@
 
   "autoPrefixer": {
     "active": true,
-    "sourceMap": false
+    "sourceMap": true,
+    "browsers": [
+      "last 1 version",
+      "> 1%",
+      "ie 8",
+      "ie 7"
+    ]
   },
   "lintScripts": false,
   "sitemap": false,
