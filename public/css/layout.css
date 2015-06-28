@@ -7636,9 +7636,15 @@ Primary style
 /* line 9, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav .active > a,
 .cd-nav .active > a > h3 {
-  color: #337ab7 !important;
+  color: #5cb85c !important;
 }
-/* line 17, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 15, /Users/dev-test/Documents/test/public/less/_navigation.less */
+.cd-nav .cd-nav-gallery p {
+  color: #333333;
+  font-size: 1.3rem;
+  padding: 0 .4em;
+}
+/* line 24, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav h1,
 .cd-nav h2,
 .cd-nav h3,
@@ -7649,35 +7655,35 @@ Primary style
   margin: 0;
 }
 @media only screen and (max-width: 991px) {
-  /* line 24, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 31, /Users/dev-test/Documents/test/public/less/_navigation.less */
   body.nav-on-left.overflow-hidden {
     overflow: hidden;
   }
 }
-/* line 29, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 36, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav a,
 header a {
   color: #337ab7;
   text-decoration: none !important;
 }
-/* line 34, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 41, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav input,
 header img {
   /* make images responsive */
   max-width: 100%;
 }
-/* line 39, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 46, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav input,
 header input {
   font-family: sans-serif;
   font-size: 1.6rem;
 }
-/* line 44, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 51, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav input[type="search"]::-ms-clear {
   /* removes close icon - IE */
   display: none;
 }
-/* line 49, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 56, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav input[type="search"]::-webkit-search-decoration,
 .cd-nav input[type="search"]::-webkit-search-cancel-button,
 .cd-nav input[type="search"]::-webkit-search-results-button,
@@ -7689,7 +7695,7 @@ header input {
 Main components
 
 -------------------------------- */
-/* line 61, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 68, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-main-content,
 .cd-main-header {
   /* Force Hardware Acceleration in WebKit */
@@ -7700,7 +7706,7 @@ Main components
   transform: translateZ(0);
   will-change: transform;
 }
-/* line 71, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 78, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-main-content,
 .cd-main-header {
   position: relative;
@@ -7709,7 +7715,7 @@ Main components
   transition: transform 0.3s;
 }
 @media only screen and (max-width: 991px) {
-  /* line 78, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 85, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-main-content.nav-is-visible,
   .cd-main-header.nav-is-visible {
     -webkit-transform: translateX(-260px);
@@ -7718,7 +7724,7 @@ Main components
     -o-transform: translateX(-260px);
     transform: translateX(-260px);
   }
-  /* line 85, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 92, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-main-content.nav-is-visible,
   .nav-on-left .cd-main-header.nav-is-visible {
     -webkit-transform: translateX(260px);
@@ -7728,19 +7734,19 @@ Main components
     transform: translateX(260px);
   }
 }
-/* line 94, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 101, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-main-content {
   background: #e2e3df;
   min-height: 100vh;
   z-index: 2;
 }
-/* line 100, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 107, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-main-header {
   height: 50px;
   background: #ffffff;
   z-index: 3;
 }
-/* line 105, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 112, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .nav-is-fixed .cd-main-header {
   /* add .nav-is-fixed class to body if you want a fixed navigation on > @grid-float-breakpoint */
   position: fixed;
@@ -7749,71 +7755,71 @@ Main components
   width: 100%;
 }
 @media only screen and (min-width: 992px) {
-  /* line 113, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 120, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-main-header {
     height: 80px;
   }
-  /* line 116, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 123, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-main-header::after {
     clear: both;
     content: "";
     display: table;
   }
 }
-/* line 123, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 130, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-logo {
   position: absolute;
   top: 12px;
   left: 5%;
 }
-/* line 128, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 135, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-logo img {
   display: block;
 }
 @media only screen and (max-width: 991px) {
-  /* line 132, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 139, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-logo {
     left: auto;
     right: 5%;
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 138, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 145, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-logo {
     top: 26px;
     left: 4em;
   }
 }
-/* line 144, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 151, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-header-buttons {
   position: absolute;
   display: inline-block;
   top: 3px;
   right: 5%;
 }
-/* line 150, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 157, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-header-buttons li {
   display: inline-block;
 }
 @media only screen and (max-width: 991px) {
-  /* line 154, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 161, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-header-buttons {
     right: auto;
     left: 5%;
   }
-  /* line 158, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 165, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-header-buttons li {
     float: right;
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 163, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 170, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-header-buttons {
     top: 18px;
     right: 4em;
   }
 }
-/* line 169, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 176, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger,
 .cd-nav-trigger {
   position: relative;
@@ -7826,7 +7832,7 @@ Main components
   color: transparent !important;
   z-index: 3;
 }
-/* line 181, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 188, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger::before,
 .cd-search-trigger::after {
   /* search icon */
@@ -7844,7 +7850,7 @@ Main components
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 197, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 204, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger::before {
   /* lens */
   top: 11px;
@@ -7854,12 +7860,12 @@ Main components
   border-radius: 50%;
   border: 3px solid #2e3233;
 }
-/* line 206, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 213, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger::after {
   /* handle */
   height: 3px;
   width: 8px;
-  background: #2e3233;
+  background: #555555;
   bottom: 14px;
   right: 11px;
   -webkit-transform: rotate(45deg);
@@ -7868,7 +7874,7 @@ Main components
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 219, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 226, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger span {
   /* container for the X icon */
   position: absolute;
@@ -7877,7 +7883,7 @@ Main components
   top: 0;
   left: 0;
 }
-/* line 227, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 234, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger span::before,
 .cd-search-trigger span::after {
   /* close icon */
@@ -7890,7 +7896,7 @@ Main components
   margin-top: -2px;
   left: 50%;
   margin-left: -11px;
-  background: #2e3233;
+  background: #555555;
   opacity: 0;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -7904,7 +7910,7 @@ Main components
   -moz-transition: opacity 0.3s, -moz-transform 0.3s;
   transition: opacity 0.3s, transform 0.3s;
 }
-/* line 252, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 259, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger span::before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -7912,7 +7918,7 @@ Main components
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 259, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 266, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger span::after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -7920,19 +7926,19 @@ Main components
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 266, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 273, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger.search-is-visible::before,
 .cd-search-trigger.search-is-visible::after {
   /* hide search icon */
   opacity: 0;
 }
-/* line 270, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 277, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger.search-is-visible span::before,
 .cd-search-trigger.search-is-visible span::after {
   /* show close icon */
   opacity: 1;
 }
-/* line 274, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 281, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger.search-is-visible span::before {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -7940,7 +7946,7 @@ Main components
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
-/* line 281, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 288, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search-trigger.search-is-visible span::after {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -7948,7 +7954,7 @@ Main components
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 289, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 296, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger span,
 .cd-nav-trigger span::before,
 .cd-nav-trigger span::after {
@@ -7957,9 +7963,9 @@ Main components
   display: inline-block;
   height: 3px;
   width: 24px;
-  background: #2e3233;
+  background: #555555;
 }
-/* line 297, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 304, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger span {
   /* line in the center */
   position: absolute;
@@ -7970,7 +7976,7 @@ Main components
   -moz-transition: background 0.3s 0.3s;
   transition: background 0.3s 0.3s;
 }
-/* line 307, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 314, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger span::before,
 .cd-nav-trigger span::after {
   /* other 2 lines */
@@ -7993,28 +7999,28 @@ Main components
   -moz-transition: -moz-transform 0.3s 0.3s;
   transition: transform 0.3s 0.3s;
 }
-/* line 328, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 335, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger span::before {
   /* menu icon top line */
   top: -6px;
 }
-/* line 332, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 339, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger span::after {
   /* menu icon bottom line */
   top: 6px;
 }
-/* line 336, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 343, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger.nav-is-visible span {
   /* hide line in the center */
   background: rgba(46, 50, 51, 0);
 }
-/* line 340, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 347, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger.nav-is-visible span::before,
 .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #2e3233;
+  background: #555555;
 }
-/* line 344, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 351, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
   -moz-transform: translateX(4px) translateY(-3px) rotate(45deg);
@@ -8022,7 +8028,7 @@ Main components
   -o-transform: translateX(4px) translateY(-3px) rotate(45deg);
   transform: translateX(4px) translateY(-3px) rotate(45deg);
 }
-/* line 351, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 358, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-nav-trigger.nav-is-visible span::after {
   -webkit-transform: translateX(4px) translateY(2px) rotate(-45deg);
   -moz-transform: translateX(4px) translateY(2px) rotate(-45deg);
@@ -8031,12 +8037,12 @@ Main components
   transform: translateX(4px) translateY(2px) rotate(-45deg);
 }
 @media only screen and (min-width: 992px) {
-  /* line 359, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 366, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-nav-trigger {
     display: none;
   }
 }
-/* line 364, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 371, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav,
 .cd-primary-nav ul {
   position: fixed;
@@ -8044,7 +8050,7 @@ Main components
   right: 0;
   height: 100%;
   width: 260px;
-  background: #2e3233;
+  background: #555555;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   z-index: 1;
@@ -8063,7 +8069,7 @@ Main components
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
 }
-/* line 389, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 396, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav a,
 .cd-primary-nav ul a {
   display: block;
@@ -8087,7 +8093,7 @@ Main components
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
 }
-/* line 411, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 418, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav.is-hidden,
 .cd-primary-nav ul.is-hidden {
   /* secondary navigations hidden by default */
@@ -8097,7 +8103,7 @@ Main components
   -o-transform: translateX(100%);
   transform: translateX(100%);
 }
-/* line 419, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 426, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav.moves-out > li > a,
 .cd-primary-nav ul.moves-out > li > a {
   /* push the navigation items to the left - and lower down opacity - when secondary nav slides in */
@@ -8109,36 +8115,36 @@ Main components
   opacity: 0;
 }
 @media only screen and (max-width: 991px) {
-  /* line 430, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 437, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-primary-nav,
   .nav-on-left .cd-primary-nav ul {
     right: auto;
     left: 0;
   }
 }
-/* line 435, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 442, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .see-all a {
   /* different style for the See all button on mobile and tablet */
   color: #337ab7;
 }
-/* line 439, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 446, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-gallery .cd-nav-item,
 .cd-primary-nav .cd-nav-icons .cd-nav-item {
   /* items with picture (or icon) and title */
   height: 80px;
   line-height: 80px;
 }
-/* line 444, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 451, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-gallery .cd-nav-item h3,
 .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 448, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 455, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-gallery .cd-nav-item {
   padding-left: 90px;
 }
-/* line 451, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 458, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-gallery .cd-nav-item img {
   position: absolute;
   display: block;
@@ -8148,18 +8154,18 @@ Main components
   top: 50%;
   margin-top: -20px;
 }
-/* line 460, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 467, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item {
   padding-left: 75px;
 }
-/* line 463, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 470, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item p {
-  color: #2e3233;
+  color: #555555;
   font-size: 1.3rem;
   /* hide description on small devices */
   display: none;
 }
-/* line 469, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 476, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item::before {
   /* item icon */
   content: '';
@@ -8174,40 +8180,40 @@ Main components
   background-position: center center;
   background-size: 40px 40px;
 }
-/* line 483, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 490, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-1::before {
   background-image: url("../img/line-icon-1.svg");
 }
-/* line 486, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 493, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-2::before {
   background-image: url("../img/line-icon-2.svg");
 }
-/* line 489, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 496, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-3::before {
   background-image: url("../img/line-icon-3.svg");
 }
-/* line 492, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 499, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-4::before {
   background-image: url("../img/line-icon-4.svg");
 }
-/* line 495, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 502, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-5::before {
   background-image: url("../img/line-icon-5.svg");
 }
-/* line 498, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 505, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-6::before {
   background-image: url("../img/line-icon-6.svg");
 }
-/* line 501, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 508, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-7::before {
   background-image: url("../img/line-icon-7.svg");
 }
-/* line 504, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 511, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-8::before {
   background-image: url("../img/line-icon-8.svg");
 }
 @media only screen and (max-width: 991px) {
-  /* line 508, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 515, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav {
     /* by default .cd-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
     visibility: hidden;
@@ -8215,7 +8221,7 @@ Main components
     -moz-transition: visibility 0s 0.3s;
     transition: visibility 0s 0.3s;
   }
-  /* line 515, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 522, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav.nav-is-visible {
     visibility: visible;
     -webkit-transition: visibility 0s 0s;
@@ -8224,7 +8230,7 @@ Main components
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 524, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 531, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav {
     position: static;
     padding: 0 150px 0 0;
@@ -8234,13 +8240,13 @@ Main components
     overflow: visible;
     background: transparent;
   }
-  /* line 533, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 540, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav::after {
     clear: both;
     content: "";
     display: table;
   }
-  /* line 538, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 545, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav.moves-out > li > a {
     /* reset mobile style */
     -webkit-transform: translateX(0);
@@ -8250,7 +8256,7 @@ Main components
     transform: translateX(0);
     opacity: 1;
   }
-  /* line 547, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 554, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav ul {
     position: static;
     height: auto;
@@ -8259,7 +8265,7 @@ Main components
     overflow: visible;
     z-index: 3;
   }
-  /* line 555, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 562, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav ul.is-hidden {
     /* reset mobile style */
     -webkit-transform: translateX(0);
@@ -8268,7 +8274,7 @@ Main components
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-  /* line 563, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 570, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav ul.moves-out > li > a {
     /* reset mobile style */
     -webkit-transform: translateX(0);
@@ -8278,12 +8284,12 @@ Main components
     transform: translateX(0);
     opacity: 1;
   }
-  /* line 572, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 579, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > li {
     float: left;
     margin-left: 3em;
   }
-  /* line 576, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 583, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > li > a {
     /* main navigation buttons style */
     position: relative;
@@ -8291,28 +8297,28 @@ Main components
     height: 80px;
     line-height: 80px;
     padding: 0 10px;
-    color: #2e3233;
+    color: #555555;
     overflow: visible;
     border-bottom: none;
     -webkit-transition: color 0.3s, box-shadow 0.3s;
     -moz-transition: color 0.3s, box-shadow 0.3s;
     transition: color 0.3s, box-shadow 0.3s;
   }
-  /* line 590, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 597, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > li > a:hover {
     color: #337ab7;
   }
-  /* line 593, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 600, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > li > a.selected {
     color: #337ab7;
     box-shadow: inset 0 -2px 0 #337ab7;
   }
-  /* line 597, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 604, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .go-back,
   .cd-primary-nav .see-all {
     display: none;
   }
-  /* line 600, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 607, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav,
   .cd-primary-nav .cd-nav-gallery,
   .cd-primary-nav .cd-nav-icons {
@@ -8332,7 +8338,7 @@ Main components
     -moz-transition: opacity .3s 0s, visibility 0s 0s;
     transition: opacity .3s 0s, visibility 0s 0s;
   }
-  /* line 617, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 624, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav::after,
   .cd-primary-nav .cd-nav-gallery::after,
   .cd-primary-nav .cd-nav-icons::after {
@@ -8340,7 +8346,7 @@ Main components
     content: "";
     display: table;
   }
-  /* line 622, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 629, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav.is-hidden,
   .cd-primary-nav .cd-nav-gallery.is-hidden,
   .cd-primary-nav .cd-nav-icons.is-hidden {
@@ -8350,7 +8356,7 @@ Main components
     -moz-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
   }
-  /* line 629, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 636, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > .see-all,
   .cd-primary-nav .cd-nav-gallery > .see-all,
   .cd-primary-nav .cd-nav-icons > .see-all {
@@ -8366,7 +8372,7 @@ Main components
     margin: 0;
     padding: 0;
   }
-  /* line 642, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 649, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > .see-all a,
   .cd-primary-nav .cd-nav-gallery > .see-all a,
   .cd-primary-nav .cd-nav-icons > .see-all a {
@@ -8388,15 +8394,15 @@ Main components
     -moz-transition: color 0.2s, background 0.2s, border 0.2s;
     transition: color 0.2s, background 0.2s, border 0.2s;
   }
-  /* line 661, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 668, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > .see-all a:hover,
   .cd-primary-nav .cd-nav-gallery > .see-all a:hover,
   .cd-primary-nav .cd-nav-icons > .see-all a:hover {
-    background: #2e3233;
-    border-color: #2e3233;
+    background: #555555;
+    border-color: #555555;
     color: #ffffff;
   }
-  /* line 666, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 673, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > li {
     /* change the height according to your needs - you can even set height: auto */
     height: 340px;
@@ -8410,13 +8416,13 @@ Main components
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
-  /* line 679, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 686, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > li:nth-child(4n+2) {
     /* +2 because we have 2 list items with display:none */
     margin-right: 0;
     border-right: none;
   }
-  /* line 684, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 691, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav > li > a {
     /* secondary nav title */
     color: #337ab7;
@@ -8424,20 +8430,20 @@ Main components
     font-size: 1.6rem;
     margin-bottom: .6em;
   }
-  /* line 691, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 698, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav a {
     height: 30px;
     line-height: 30px;
     padding: 0 18% 0 0;
-    color: #2e3233;
+    color: #555555;
     border-bottom: none;
     font-size: 1.4rem;
   }
-  /* line 699, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 706, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav a:hover {
     color: #337ab7;
   }
-  /* line 702, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 709, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul {
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
@@ -8446,7 +8452,7 @@ Main components
     -o-transform: translateZ(0);
     transform: translateZ(0);
   }
-  /* line 710, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 717, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul ul {
     /* tertiary navigation */
     position: absolute;
@@ -8455,7 +8461,7 @@ Main components
     height: 100%;
     width: 100%;
   }
-  /* line 718, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 725, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul ul.is-hidden {
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
@@ -8463,19 +8469,19 @@ Main components
     -o-transform: translateX(100%);
     transform: translateX(100%);
   }
-  /* line 725, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 732, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul ul .go-back {
     display: block;
   }
-  /* line 728, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 735, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul ul .go-back a {
     color: transparent;
   }
-  /* line 731, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 738, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav ul ul .see-all {
     display: block;
   }
-  /* line 734, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 741, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-secondary-nav .moves-out > li > a {
     /* push the navigation items to the left - and lower down opacity - when tertiary nav slides in */
     -webkit-transform: translateX(-100%);
@@ -8484,26 +8490,26 @@ Main components
     -o-transform: translateX(-100%);
     transform: translateX(-100%);
   }
-  /* line 742, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 749, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-gallery li {
     /* set here number of columns - use width percentage */
     width: 22%;
     float: left;
     margin: 0 4% 40px 0;
   }
-  /* line 748, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 755, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-gallery li:nth-child(4n+2) {
     /* +2 because we have two additional list items with display:none */
     margin-right: 0;
   }
-  /* line 752, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 759, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-gallery .cd-nav-item {
     border-bottom: none;
     padding: 0;
     height: auto;
     line-height: 1.2;
   }
-  /* line 758, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 765, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-gallery .cd-nav-item img {
     position: static;
     margin-top: 0;
@@ -8511,25 +8517,25 @@ Main components
     width: 100%;
     margin-bottom: .6em;
   }
-  /* line 765, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 772, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-gallery .cd-nav-item h3 {
     color: #337ab7;
     font-weight: bold;
     padding: 0 .4em;
   }
-  /* line 770, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 777, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons li {
     /* set here number of columns - use width percentage */
     width: 32%;
     float: left;
     margin: 0 2% 20px 0;
   }
-  /* line 776, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 783, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons li:nth-child(3n+2) {
     /* +2 because we have two additional list items with display:none */
     margin-right: 0;
   }
-  /* line 780, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 787, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons .cd-nav-item {
     border-bottom: none;
     height: 80px;
@@ -8537,30 +8543,30 @@ Main components
     padding: 24px 0 0 85px;
     position: relative;
   }
-  /* line 787, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 794, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons .cd-nav-item:hover {
     background: #f6f6f5;
   }
-  /* line 790, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 797, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
     color: #337ab7;
     font-weight: bold;
   }
-  /* line 794, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 801, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons .cd-nav-item p {
     display: block;
   }
-  /* line 797, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 804, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .cd-nav-icons .cd-nav-item::before {
     left: 25px;
   }
 }
-/* line 801, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 808, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a,
 .go-back a {
   position: relative;
 }
-/* line 804, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 811, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a::before,
 .has-children > a::after,
 .go-back a::before,
@@ -8577,7 +8583,7 @@ Main components
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-/* line 817, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 824, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a::before,
 .go-back a::before {
   -webkit-transform: rotate(45deg);
@@ -8586,7 +8592,7 @@ Main components
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 824, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 831, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a::after,
 .go-back a::after {
   -webkit-transform: rotate(-45deg);
@@ -8596,14 +8602,14 @@ Main components
   transform: rotate(-45deg);
 }
 @media only screen and (min-width: 992px) {
-  /* line 832, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 839, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .has-children > a::before,
   .has-children > a::after,
   .go-back a::before,
   .go-back a::after {
     background: #c9cbc4;
   }
-  /* line 835, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 842, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .has-children > a:hover::before,
   .has-children > a:hover::after,
   .go-back a:hover::before,
@@ -8611,11 +8617,11 @@ Main components
     background: #337ab7;
   }
 }
-/* line 840, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 847, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a {
   padding-right: 40px;
 }
-/* line 843, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 850, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .has-children > a::before,
 .has-children > a::after {
   /* arrow goes on the right side - children navigation */
@@ -8626,11 +8632,11 @@ Main components
   -o-transform-origin: 9px 50%;
   transform-origin: 9px 50%;
 }
-/* line 853, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 860, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .go-back a {
   padding-left: 40px;
 }
-/* line 856, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 863, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-primary-nav .go-back a::before,
 .cd-primary-nav .go-back a::after {
   /* arrow goes on the left side - go back button */
@@ -8642,17 +8648,17 @@ Main components
   transform-origin: 1px 50%;
 }
 @media only screen and (min-width: 992px) {
-  /* line 867, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 874, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .has-children > a::before,
   .has-children > a::after {
     right: 15%;
   }
-  /* line 871, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 878, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a {
     /* main navigation arrows on larger devices */
     padding-right: 30px !important;
   }
-  /* line 875, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 882, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a::before,
   .cd-primary-nav > .has-children > a::after {
     width: 9px;
@@ -8668,20 +8674,20 @@ Main components
     -moz-transition: width 0.3s, -moz-transform 0.3s;
     transition: width 0.3s, transform 0.3s;
   }
-  /* line 889, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 896, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a::before {
     right: 12px;
   }
-  /* line 892, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 899, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a::after {
     right: 7px;
   }
-  /* line 895, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 902, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a.selected::before,
   .cd-primary-nav > .has-children > a.selected::after {
     width: 14px;
   }
-  /* line 898, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 905, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a.selected::before {
     -webkit-transform: translateX(5px) rotate(-45deg);
     -moz-transform: translateX(5px) rotate(-45deg);
@@ -8689,7 +8695,7 @@ Main components
     -o-transform: translateX(5px) rotate(-45deg);
     transform: translateX(5px) rotate(-45deg);
   }
-  /* line 905, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 912, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav > .has-children > a.selected::after {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -8697,23 +8703,23 @@ Main components
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  /* line 913, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 920, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-secondary-nav > .has-children > a::before,
   .cd-secondary-nav > .has-children > a::after {
     /* remove arrows on secondary nav titles */
     display: none;
   }
-  /* line 918, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 925, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .go-back a {
     padding-left: 20px;
   }
-  /* line 921, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 928, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-primary-nav .go-back a::before,
   .cd-primary-nav .go-back a::after {
     left: 1px;
   }
 }
-/* line 925, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 932, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search {
   position: absolute;
   height: 50px;
@@ -8727,12 +8733,12 @@ Main components
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
 }
-/* line 938, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 945, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search form {
   height: 100%;
   width: 100%;
 }
-/* line 942, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 949, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input {
   border-radius: 0;
   border: none;
@@ -8747,27 +8753,27 @@ Main components
   -o-appearance: none;
   appearance: none;
 }
-/* line 956, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 963, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input::-webkit-input-placeholder {
   color: #c9cbc4;
 }
-/* line 959, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 966, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input::-moz-placeholder {
   color: #c9cbc4;
 }
-/* line 962, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 969, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input:-moz-placeholder {
   color: #c9cbc4;
 }
-/* line 965, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 972, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input:-ms-input-placeholder {
   color: #c9cbc4;
 }
-/* line 968, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 975, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search input:focus {
   outline: none;
 }
-/* line 971, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 978, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-search.is-visible {
   opacity: 1;
   visibility: visible;
@@ -8775,24 +8781,24 @@ Main components
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
-/* line 978, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 985, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .nav-is-fixed .cd-search {
   position: fixed;
 }
 @media only screen and (min-width: 992px) {
-  /* line 982, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 989, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-search {
     height: 120px;
     top: 80px;
   }
-  /* line 986, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 993, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-search input {
     padding: 0 2em;
     font-size: 3.2rem;
     font-weight: 300;
   }
 }
-/* line 993, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 1000, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-overlay {
   /* shadow layer visible when navigation is active */
   position: fixed;
@@ -8811,7 +8817,7 @@ Main components
   -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s;
 }
-/* line 1012, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 1019, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .cd-overlay.is-visible {
   opacity: 1;
   visibility: visible;
@@ -8820,7 +8826,7 @@ Main components
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s;
 }
 @media only screen and (max-width: 991px) {
-  /* line 1020, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 1027, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-overlay.is-visible {
     -webkit-transform: translateX(-260px);
     -moz-transform: translateX(-260px);
@@ -8828,7 +8834,7 @@ Main components
     -o-transform: translateX(-260px);
     transform: translateX(-260px);
   }
-  /* line 1027, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 1034, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .nav-on-left .cd-overlay.is-visible {
     -webkit-transform: translateX(260px);
     -moz-transform: translateX(260px);
@@ -8836,7 +8842,7 @@ Main components
     -o-transform: translateX(260px);
     transform: translateX(260px);
   }
-  /* line 1034, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 1041, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .cd-overlay.is-visible.search-is-visible,
   .nav-on-left .cd-overlay.is-visible.search-is-visible {
     -webkit-transform: translateX(0);
@@ -8851,7 +8857,7 @@ Main components
 support for no js
 
 -------------------------------- */
-/* line 1048, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 1055, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .no-js .cd-primary-nav {
   position: relative;
   height: auto;
@@ -8860,7 +8866,7 @@ support for no js
   visibility: visible;
   z-index: 2;
 }
-/* line 1057, /Users/dev-test/Documents/test/public/less/_navigation.less */
+/* line 1064, /Users/dev-test/Documents/test/public/less/_navigation.less */
 .no-js .cd-search {
   position: relative;
   top: 0;
@@ -8868,7 +8874,7 @@ support for no js
   visibility: visible;
 }
 @media only screen and (min-width: 992px) {
-  /* line 1065, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 1072, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .no-js .cd-primary-nav {
     position: absolute;
     z-index: 3;
@@ -8878,7 +8884,7 @@ support for no js
     right: 150px;
     padding: 0;
   }
-  /* line 1075, /Users/dev-test/Documents/test/public/less/_navigation.less */
+  /* line 1082, /Users/dev-test/Documents/test/public/less/_navigation.less */
   .no-js .nav-is-fixed .cd-primary-nav {
     position: fixed;
   }
