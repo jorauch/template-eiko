@@ -15,7 +15,10 @@
   "remoteDebugPort": 8081,
   "serverPort": null,
 
-  "autoPrefixer": true,
+  "autoPrefixer": {
+    "active": true,
+    "sourceMap": false
+  },
   "lintScripts": false,
   "sitemap": false,
   "optimiseSVG": true,
