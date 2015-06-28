@@ -1,36 +1,38 @@
 {
+  "projectName": "eikona-template",
+  "projectDescription": "bootstrap template.",
+  "publishedId": null,
+  "routes": null,
   "convertHtml": {
-    "relativePaths": false
+    "relativePaths": true
   },
+
+  "type": "mixture",
+  "serverHostname": null,
+  "domain": null,
+  "password": null,
+  "debug": true,
+  "remoteDebugPort": 8081,
+  "serverPort": null,
+
+  "autoPrefixer": true,
+  "lintScripts": false,
+  "sitemap": false,
+  "optimiseSVG": true,
+  "optimiseImages": true,
+
+  "preprocessorScriptOutput": "public/js",
+  "preprocessorStyleOutput": "public/css",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "modelSource": null,
   "less": {
     "sourceMap": false,
     "lineNumbers": true
   },
-  "debug": true,
-  "domain": null,
-  "lintScripts": false,
-  "modelSource": null,
   "preprocessorLocations": [
     "public/less",
     "public/js"
-  ],
-  "preprocessorScriptOutput": "public/js",
-  "preprocessorStyleOutput": "public/css",
-  "projectDescription": "bootstrap template.",
-  "projectName": "eikona-template",
-  "publishedId": null,
-  "serverHostname": null,
-  "serverPort": null,
-  "simpleModePartnerServer": null,
-  "templateDefaultLayout": "layout",
-  "templateDefaultPage": "index",
-  "templateDirectory": "templates",
-  "type": "mixture",
-  "remoteDebugPort": 8081,
-  "routes": null,
-  "password": null,
-  "autoPrefixer": true,
-  "sitemap": false,
-  "optimiseSVG": true,
-  "optimiseImages": true
+  ]
 }

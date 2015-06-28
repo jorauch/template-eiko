@@ -16,9 +16,9 @@
             </div>
         </main>
         {% include "navigation" %}
-        <script src="//code.jquery.com/jquery.min.js"></script>
+        {{ "jquery.min.js" | asset_url | script_tag }}
         {{ "jquery.mobile.custom.min.js" | asset_url | script_tag }}
-        {{ "bootstrap.js" | asset_url | script_tag }}
+        {{ "bootstrap.min.js" | asset_url | script_tag }}
         {{ "navigation.min.js" | asset_url | script_tag }}
     </body>
 </html>
