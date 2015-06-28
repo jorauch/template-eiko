@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <title>{% block title %}Mixture + Bootstrap{% endblock %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {{ "reset.css" | asset_url | stylesheet_tag }}
+        <!--{{ "reset.css" | asset_url | stylesheet_tag }}-->
         {{ "layout.css" | asset_url | stylesheet_tag }}
+        {{ "mega-site-navigation.css" | asset_url | stylesheet_tag }}
         {{ "modernizr.min.js" | asset_url | script_tag }}
     </head>
     <body>

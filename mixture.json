@@ -41,6 +41,7 @@
   },
   "preprocessorLocations": [
     "public/less",
+    "public/sass",
     "public/js"
   ]
 }
