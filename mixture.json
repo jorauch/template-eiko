@@ -10,7 +10,7 @@
   "serverHostname": null,
   "domain": null,
   "password": null,
-  "debug": true,
+  "debug": false,
   "remoteDebugPort": 8081,
   "serverPort": null,
 
